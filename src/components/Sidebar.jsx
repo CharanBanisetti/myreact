@@ -20,7 +20,7 @@ const Sidebar = () => {
     <div className="sidebar">
       <ul>
         <li>
-          <NavLink to="/" className={({ isActive }) => (isActive ? 'active-link' : '')}>
+          <NavLink to="/myreact" className={({ isActive }) => (isActive ? 'active-link' : '')}>
             Home
           </NavLink>
         </li>
