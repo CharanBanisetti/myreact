@@ -6,7 +6,7 @@ const ProductDetailPage = ({ products, addToCart }) => {
   const { id } = useParams(); // Get product ID from the URL
   const product = products.find((prod) => prod.id === parseInt(id));
 
-  const navigate = useNavigate(); // Hook to navigate back to the previous page
+  const navigate = useNavigate(); 
 
   if (!product) {
     return (

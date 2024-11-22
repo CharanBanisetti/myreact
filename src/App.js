@@ -40,7 +40,7 @@ function App() {
           <Sidebar />
           <div className="content">
             <Routes>
-              <Route path="/" element={<HomePage addToCart={addToCart} products={products} />} />
+              <Route path="/myreact" element={<HomePage addToCart={addToCart} products={products} />} />
               <Route path="/cart" element={<CartPage cartItems={cartItems} />} />
               <Route path="/login" element={<LoginPage />} />
               <Route path="/signup" element={<SignUpPage />} />
